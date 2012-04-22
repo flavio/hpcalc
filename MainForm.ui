@@ -1,0 +1,118 @@
+<ui version="4.0" >
+ <author></author>
+ <comment></comment>
+ <exportmacro></exportmacro>
+ <class>MainForm</class>
+ <widget class="QMainWindow" name="MainForm" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>578</width>
+    <height>532</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>HpCalc</string>
+  </property>
+  <widget class="QWidget" name="centralWidget" >
+   <layout class="QVBoxLayout" >
+    <property name="margin" >
+     <number>8</number>
+    </property>
+    <property name="spacing" >
+     <number>6</number>
+    </property>
+    <item>
+     <widget class="QSplitter" name="splitter" >
+      <property name="orientation" >
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <layout class="QHBoxLayout" >
+       <property name="margin" >
+        <number>8</number>
+       </property>
+       <property name="spacing" >
+        <number>6</number>
+       </property>
+      </layout>
+      <widget class="QGroupBox" name="symbolBox" >
+       <property name="title" >
+        <string>Simbol Table</string>
+       </property>
+       <layout class="QHBoxLayout" >
+        <property name="margin" >
+         <number>8</number>
+        </property>
+        <property name="spacing" >
+         <number>6</number>
+        </property>
+        <item>
+         <widget class="QTabWidget" name="symbolTab" >
+          <property name="sizePolicy" >
+           <sizepolicy>
+            <hsizetype>7</hsizetype>
+            <vsizetype>7</vsizetype>
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="contextMenuPolicy" >
+           <enum>Qt::NoContextMenu</enum>
+          </property>
+          <property name="tabPosition" >
+           <enum>QTabWidget::West</enum>
+          </property>
+          <property name="currentIndex" >
+           <number>0</number>
+          </property>
+          <widget class="QWidget" name="tab" >
+           <attribute name="title" >
+            <string>Tab 1</string>
+           </attribute>
+           <layout class="QHBoxLayout" >
+            <property name="margin" >
+             <number>8</number>
+            </property>
+            <property name="spacing" >
+             <number>6</number>
+            </property>
+           </layout>
+          </widget>
+          <widget class="QWidget" name="tab" >
+           <attribute name="title" >
+            <string>Tab 2</string>
+           </attribute>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QGroupBox" name="editorBox" >
+       <property name="title" >
+        <string>Title</string>
+       </property>
+       <property name="alignment" >
+        <set>Qt::AlignHCenter</set>
+       </property>
+       <layout class="QHBoxLayout" >
+        <property name="margin" >
+         <number>8</number>
+        </property>
+        <property name="spacing" >
+         <number>6</number>
+        </property>
+        <item>
+         <widget class="QTextEdit" name="textEditor" />
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <pixmapfunction></pixmapfunction>
+ <resources/>
+ <connections/>
+</ui>
