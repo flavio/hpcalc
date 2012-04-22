@@ -1,0 +1,18 @@
+## Preable
+
+This is some really old code I found on my machine. It has been written in 2006.
+
+## Hpcalc
+
+Hpcalc is an open-source multi-platform editor for the Hp 39G
+calculator. I was bored by the official “Applet Development kit”, a really old and ugly program written for Windows 3.1 (!!), so I decided to write something new (and maybe better).
+
+I made this program just for fun and for learning something (it was the first time I used the Qt library), so don’t bother me if this isn’t fully comparable to Hp’s ADK.
+
+I don’t use too much my calculator, the only thing I really needed was a decent note editor and this’s what HpCalc is going to be: an hp 39G note editor.
+
+Actually the program is only an alpha version, but it’s quite usable for loading/editing/saving .not files.
+
+As I said before I don’t use too much my calculator and this isn’t one of my primary interest, so I don’t know if I’ll ever upgrade it.
+
+
